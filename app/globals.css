@@ -1,0 +1,80 @@
+:root {
+  color-scheme: dark;
+  background: #090909;
+  color: #f6f4ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #090909;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+.stage {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 32px 20px;
+}
+
+.lockup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.mark {
+  width: 108px;
+  height: auto;
+  color: #f6f4ef;
+}
+
+.wordmark,
+.moment,
+.soon {
+  margin: 0;
+}
+
+.wordmark {
+  margin-top: 22px;
+  font-family: var(--font-serif), "Times New Roman", serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: 0.42em;
+  text-indent: 0.42em;
+  text-transform: uppercase;
+}
+
+.moment {
+  margin-top: 9px;
+  font-family: var(--font-serif), "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1;
+  letter-spacing: 0.58em;
+  text-indent: 0.58em;
+  text-transform: uppercase;
+}
+
+.soon {
+  margin-top: 36px;
+  font-family: var(--font-sans), "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.38em;
+  text-indent: 0.38em;
+  text-transform: lowercase;
+  color: rgba(246, 244, 239, 0.72);
+}
